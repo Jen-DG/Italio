@@ -1,0 +1,252 @@
+h2 {
+    font-size: 22px !important; 
+    color:black;
+    font-weight: 500;
+    /*font-family: 'Bad Script', cursive;*/
+    font-family: 'Georama', sans-serif;
+}
+
+.dishes  {
+    font-size: 80px;
+    color: #010001;
+    /*font-family: 'Old Standard TT', serif;*/
+    font-family: 'Bad Script', cursive;
+
+}
+
+h3 {
+    /*font-family: 'Parisienne', cursive;*/
+    color: #6B1317;
+    font-size: 40px;
+    /* font-family: 'Old Standard TT', serif;*/
+    font-family: 'Bad Script', cursive;
+}
+
+h4 {
+    /*font-family: 'Parisienne', cursive;*/
+    color: black;
+    /*font-family: 'Old Standard TT', serif;*/
+    font-family: 'Bad Script', cursive;
+}
+
+p {
+    /*font-family:'Merriweather', serif;*/
+    font-family: 'Georama', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+h5 {
+    /*font-family:'Merriweather', serif;*/
+    font-family: 'Georama', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+h6 {
+  /* font-family: 'Merriweather', serif;*/
+   font-family: 'Georama', sans-serif;
+   color: black;
+   font-size: 30px;
+}
+
+.back {
+    background-image: url("/Resources/Images/faded-gray-wooden.jpg");
+    background-size: cover;
+}
+
+
+.link-hover:hover {
+    color: #033B24;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav {
+    padding-top: 8px;
+}
+
+/* section spacing */
+.spacer {
+    margin-top: 150px;
+}
+@media screen and (max-width: 767px) {
+    .spacer {
+        margin-top: 100px;
+    }
+}
+
+.spacer-bottom {
+    margin-bottom: 150px;
+}
+@media screen and (max-width: 767px) {
+    .spacer-bottom {
+        margin-top: 100px;
+    }
+}
+
+.spacer-dishes {
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+@media screen and (max-width: 767px) {
+    .spacer-dishes {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+}
+
+.banner {
+    background-image: url("/Resources/Images/white-wooden.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+@media only screen and (max-width: 840px) {
+    .banner {
+        height: 100%;
+        background-size: cover;
+    }
+}
+
+.img-logo {
+    padding-top: 100px;
+    width: 800px;
+    height: auto;
+}
+@media only screen and (max-width: 840px) {
+    .img-logo {
+        padding-top: 20px;
+        margin: 50px;
+        width: 500px;
+        height:auto;
+    }
+}
+
+
+/* Buttons */
+.btn-view {
+    background-color: #186652;
+    padding: 8px 16px;
+    color:whitesmoke;
+    margin: 0;
+    font-size: 16px;
+}
+.btn-view:hover {
+    background-color: #033B24 !important;
+}
+
+.btn-download {
+    background-color: #033B24;
+    padding: 8px 16px;
+    color:whitesmoke;
+    margin: 0;
+    font-size: 16px;
+}
+.btn-download:hover {
+    background-color: #186652 !important;
+}
+
+.btn-size {
+    padding: 6px !important;
+}
+
+/* body color */
+body {
+    background-color: #F6F6F6 !important;
+}
+
+
+/* card styling */
+.card-body {
+    background-color: #F6F6F6;
+}
+
+.card-footer {
+    background-color: #F6F6F6 !important;
+}
+
+.card-header {
+    background-color: #F6F6F6 !important;
+}
+
+.bg-dishes {
+    background-color: #cccccc !important;
+}
+
+/* hrizontal row styling */
+.hr {
+    border-top: 1.5px solid rgba(37, 37, 37, 0.158);
+}
+
+.hr-dishes {
+    border-top: 0.5px solid rgba(37, 37, 37, 0.158); 
+}
+
+.icons {
+    width: 40px;
+    height: 30px;
+    margin: auto;
+}
+
+.foot1 {
+    background-image: url("/Resources/Images/faded-gray-wooden.jpg");
+    background-size: cover;
+}
+
+.logo1 {
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.jdg {
+    width: 30px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h6 a {
+    color: black;
+}
+
+.footer {
+    font-size: 10px;
+}
+
+.burger-menu {
+    background-color: #f6f6f6;
+    box-shadow: 1px 1px rgba(37, 37, 37, 0.158);
+}
+
+.dishes-background {
+    background-color: #CCCCCC;
+}
+
+/*map*/
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:350px;
+    width:442px;
+}
+
+#gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:350px;
+    width:600px;
+}
+@media screen and (max-width: 767px) {
+    #gmap_canvas {
+        height:auto;
+        width: 100%;
+    }
+}
